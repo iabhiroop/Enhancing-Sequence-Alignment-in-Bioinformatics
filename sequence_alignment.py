@@ -14,12 +14,13 @@ in_ch = input("<m> for manual string input... ")
 if in_ch == "m":
     s1 = input()
     s2 = input()
+    match = int(input("Enter match score "))
+    mismatch = int(input("Enter mismatch score "))
 else:
     s1 = gen_s()
     s2 = gen_s()
-
-match = 5
-mismatch = 4
+    match = 5
+    mismatch = 4
 
 print("Sequence 1:", "".join(s1))
 print("Sequence 2:", "".join(s2))
