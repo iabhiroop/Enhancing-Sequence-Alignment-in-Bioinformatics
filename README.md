@@ -1,9 +1,20 @@
 # dynamic-programming-for-bio-informatics
 
-This repository contains an implementation of the Smith-Waterman algorithm for local sequence alignment. The Smith-Waterman algorithm is used in bioinformatics to identify similarities and alignments between biological sequences such as DNA or protein sequences.
-Sequence Alignment or sequence comparison lies at heart of the bioinformatics, which describes the way of arrangement of DNA/RNA or protein sequences, in order to identify the regions of similarity among them. It is used to infer structural, functional and evolutionary relationship between the sequences.
+This repository contains an implementation of the Smith-Waterman algorithm for local sequence alignment. The Smith-Waterman algorithm is used in bioinformatics to identify similarities and alignments between biological sequences such as DNA or protein sequences. It is used to infer structural, functional and evolutionary relationship between the sequences.
 
 ## Usage
+- Choose to manually enter the two sequences to be aligned. (here, random initiation for sample)
+- Enter the match and mismatch score for the alignment.
+- The program runs on the data to generate a alignment matrix.
+
+  ![Screenshot 2023-07-30 205805](https://github.com/iabhiroop/dynamic-programming-for-bio-informatics/assets/100859103/bc9635de-0a4c-491e-92f1-8132b6bbab90)
+  
+- Traceback is done to find the alignment.
+- The result along with the trace back map is returned
+  
+  ![Screenshot 2023-07-30 205832](https://github.com/iabhiroop/dynamic-programming-for-bio-informatics/assets/100859103/8c7cf681-0adf-4452-86f9-928d5bf2b00b)
+
+## How to run
 
 To use this program, follow the instructions below:
 
